@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#FAFAFA"/>
+
+  <!-- River decor -->
+  <path d="M 0 520 C 200 460 400 570 700 490 C 950 430 1100 550 1200 520 L 1200 630 L 0 630 Z" fill="#A3D4E0" opacity="0.4"/>
+  <path d="M 0 560 C 250 500 450 610 750 540 C 1050 480 1150 590 1200 560 L 1200 630 L 0 630 Z" fill="#8CBCC8" opacity="0.35"/>
+
+  <!-- Title -->
+  <text x="600" y="160" text-anchor="middle" font-family="Arial Black, Helvetica, sans-serif" font-weight="900" font-size="110" fill="#111827">MINI METRO</text>
+  <text x="600" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" fill="#6B7280">Classroom Lesson · מערך שיעור</text>
+
+  <!-- Blue line -->
+  <polyline points="200,380 400,380 550,330 800,330 1000,380"
+            fill="none" stroke="#005BAA" stroke-width="10"
+            stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Red line -->
+  <polyline points="250,470 500,470 650,420 900,420 1050,470"
+            fill="none" stroke="#E32025" stroke-width="10"
+            stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Stations on blue line -->
+  <circle cx="200" cy="380" r="24" fill="white" stroke="#111827" stroke-width="6"/>
+  <rect x="376" y="356" width="48" height="48" fill="white" stroke="#111827" stroke-width="6"/>
+  <polygon points="550,305 578,355 522,355" fill="white" stroke="#111827" stroke-width="6" stroke-linejoin="round"/>
+  <circle cx="800" cy="330" r="24" fill="white" stroke="#111827" stroke-width="6"/>
+  <rect x="976" y="356" width="48" height="48" fill="white" stroke="#111827" stroke-width="6"/>
+
+  <!-- Stations on red line -->
+  <polygon points="250,445 278,495 222,495" fill="white" stroke="#111827" stroke-width="6" stroke-linejoin="round"/>
+  <circle cx="500" cy="470" r="24" fill="white" stroke="#111827" stroke-width="6"/>
+  <rect x="626" y="396" width="48" height="48" fill="white" stroke="#111827" stroke-width="6"/>
+  <polygon points="900,395 928,445 872,445" fill="white" stroke="#111827" stroke-width="6" stroke-linejoin="round"/>
+  <circle cx="1050" cy="470" r="24" fill="white" stroke="#111827" stroke-width="6"/>
+</svg>
