@@ -58,6 +58,15 @@ const StarIcon = ({ color = "currentColor", size = 24 }) => (
 export default function App() {
   const [currentStep, setCurrentStep] = useState(0);
   const [showTeacherGuide, setShowTeacherGuide] = useState(false);
+
+  useEffect(() => {
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', 'step_viewed', {
+        game_name: window.GAME_NAME || 'mini-metro-lesson',
+        step_index: currentStep
+      });
+    }
+  }, [currentStep]);
   
   // State for the graph (Only passengers now)
   const [scores, setScores] = useState([
